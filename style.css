@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+#input{
+    background-image:url(https://cdn.pixabay.com/photo/2012/04/13/01/23/moon-31665_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 2em;
+    margin: 10px;
+
+}
+
+#number{
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+
+}
+
+#button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.Circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width:50px;
+    border-radius:50%;
+    margin:10px;
+    text-align: center;
+    background-color:blue;
+
+}
+.Square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:white;
+    height: 50px;
+    width:50px;
+    margin:10px;
+    text-align: center;
+    background-color:blue;
+
+}
+.Rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:white;
+    height: 50px;
+    width:80px;
+    margin:10px;
+    text-align: center;
+    background-color:blue;
+
+}
+
+.Oval{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:white;
+    height: 50px;
+    width:80px;
+    border-radius: 50%;
+    margin:10px;
+    text-align: center;
+    background-color: blue;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
